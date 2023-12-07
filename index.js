@@ -46,7 +46,7 @@ const githubdata={
 // app using get request(req) the server to listen to home directory(/) and call back to resource(res)
 app.get('/', (req, res) => {
     // responce(res) to request(req) =to callback
-  res.send('Hello World!')
+  res.send('Hello JS!')
 })
 
 app.get('/twitter',(req,res)=>{

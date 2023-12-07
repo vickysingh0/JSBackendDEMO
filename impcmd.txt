@@ -20,3 +20,14 @@ paste in ssh section of github setting
 
 
 git cmd to upload all file on github "git add .(for all files)" 
+
+
+
+
+using Render deployed the node
+Some setups commands for node app
+
+‘Environment’ section, select ‘Node’
+ ‘Build Command’ field, = npm install or yarn install
+
+Start Command =  command that starts your project "That you specified in package.json file in script section".

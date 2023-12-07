@@ -1,0 +1,3 @@
+# this dir is use to ignore the file or folder which we didnot want to upload on github or git
+node_modules
+.env

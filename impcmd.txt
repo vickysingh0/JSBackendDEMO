@@ -1,0 +1,22 @@
+            sshSetup
+
+Show hidden file in C
+Go to Users
+Further click the user i.e "vikra" in my case
+search for ".ssh"
+open file it should be empty or you already created
+Now go to powershell (as it already contain or allow easy to create sshkey)  also in cmd and type 
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+explain:
+The ssh-keygen command will generate a pair of SSH keys (a public key and a private key) 
+The private key (id_rsa) and public key (id_rsa.pub) 
+-b flag number of bits in the key (4096 bits is a commonly used value).
+-t flag = key to create (in this case, RSA)
+ Press Enter 
+ enter a passphrase for additional security or press Enter to skip this step
+Open the id.rsa.pub(public key) in any editor and copy the key and 
+
+paste in ssh section of github setting
+
+
+git cmd to upload all file on github "git add .(for all files)" 
